@@ -1,8 +1,13 @@
-
-<div *ngIf="price >= 500">
-  <img src={{src}} alt="" style="border: 3px solid red" height="100">
-</div>
-
-<div *ngIf="price < 500">
-  <img src={{src}} alt="" style="border: 3px solid yellow" height="100">
-</div>
+<img
+  *ngIf="price > 3100"
+  src={{src}}
+  alt=""
+  class="border-yellow"
+  width="100"
+/>
+<img
+  *ngIf="price <= 3100"
+  src={{src}}
+  alt=""
+  width="100"
+/>

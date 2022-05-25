@@ -18,10 +18,11 @@
       <td>{{champ.defend}}</td>
       <td>{{champ.speed}}</td>
       <td>{{champ.price}}</td>
-      <app-table-price [price]="champ.price"></app-table-price>
       <td>
-        <!-- Dame > 500 red < 500 yellow, price > 3100 yellow -->
-        <app-table-avatar [price]="champ.price" [src]="champ.avatar"></app-table-avatar>
+        <app-table-avatar
+          [price]="champ.price"
+          [src]="champ.avatar"
+        ></app-table-avatar>
       </td>
     </tr>
   </tbody>

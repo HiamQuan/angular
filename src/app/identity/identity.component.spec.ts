@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TablePriceComponent } from './table-price.component';
+import { IdentityComponent } from './identity.component';
 
-describe('TablePriceComponent', () => {
-  let component: TablePriceComponent;
-  let fixture: ComponentFixture<TablePriceComponent>;
+describe('IdentityComponent', () => {
+  let component: IdentityComponent;
+  let fixture: ComponentFixture<IdentityComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TablePriceComponent ]
+      declarations: [ IdentityComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TablePriceComponent);
+    fixture = TestBed.createComponent(IdentityComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
